@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator kosztów wynajmu</title>
+    <link rel="stylesheet" href="styl.css" />
+
+</head>
+<body>
+    
+    <h2>Kalkulator kosztów<br>wynajmu samochodu</h2>  
+   
+    <div class="tak">
+        
+        <div class="kilometry">    
+            
+            <h3>Ile kilometrów chcesz przejechać <br></h3>
+                
+            <input type="range" min="1" max="1000" value="500" class="slider" id="slider" > 
+               
+            <br>
+
+            <span id="wartosc"></span> km
+                
+            <script src="slider.js"></script>
+
+        </div>
+            
+        <div class="prawojazdy">
+            
+            <h3>
+                Ile lat posiadasz <br>prawo jazdy:<br>
+        
+                <input type="number" name="lata" id="lata" /> 
+            </h3>
+
+        </div>
+           
+        <div class="katpojazdu">
+
+            <h3>
+                 Wybierz kategorię <br>pojazdu <br>
+                    
+                 <select name="pojazdy" id="pojazdy" class="select">
+                    
+                    <option value="Basic">Basic</option>
+                    
+                    <option value="Standard">Standard</option>
+                        
+                    <option value="Medium">Medium</option>
+                    
+                    <option value="Premium">Premium</option>
+
+                 </select>
+            </h3>
+        
+        </div>
+            
+        <div class="liczba_dni">
+                
+            <h3>
+                Na ile dni chcesz <br> wypożyczyć samochód 
+
+                <input type="number" name="liczba_dni" id="liczba_dni" />
+            </h3>
+        
+        </div>
+    
+            <div class="wynik">
+            
+                <button type="button" onclick="f1()"><h3>OBLICZ<h3></button>
+                    
+                <script src="oblicz.js"></script>
+        
+            </div>
+
+        </div>
+        
+    <h2>Podsumowanie informacji</h2>  
+
+    <div class="tak2">
+
+        <div class="podsumowanie1">
+            
+            <h3>Cena za dzień <br> wypożyczenia: <br> 120 zł<h3>
+ 
+        </div>
+                   
+        <div class="podsumowanie1">
+            
+            <h3>Średnie spalanie<br> samochodu: <br> 8 litrów / 100 km</h3>
+  
+        </div>
+        
+        <div class="podsumowanie2">
+            
+            <h3> Cena paliwa <br >7 zł / litr </h3>
+  
+        </div>
+        
+        <div class="podsumowanie2">
+            
+            <h3> Liczba kilometrów <p id="pokaz5">-</p></h3>
+  
+        </div>
+
+        <div class="podsumowanie3">
+            
+            <h3>Kategoria pojazdu <p id="pokaz3">-</p></h3>
+  
+        </div>
+
+        <div class="podsumowanie3">
+            
+            <h3>Liczba dni <p id="pokaz4">-</p></h3>
+  
+        </div>
+
+        <div class="podsumowanie4">
+            
+            <h3>Cena brutto <p id="pokaz2">-</p></h3>
+  
+        </div>
+
+        <div class="podsumowanie5">
+            
+            <h3>Cena netto <p id="pokaz">-</p></h3>
+  
+        </div>
+           
+    </div>
+</body>
+</html>

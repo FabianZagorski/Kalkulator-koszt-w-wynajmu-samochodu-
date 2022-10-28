@@ -1,0 +1,162 @@
+div{
+  position: relative;
+  border-radius: 25px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.tak{
+  background-color: rgb(51, 88, 138);
+  padding: 10px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.tak2{
+  background-color: rgb(51, 88, 138);
+  padding: 10px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 380px;
+}
+
+.kilometry {
+  background-color: rgb(147, 208, 255);
+  border-radius: 25px;
+  height: 100px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.prawojazdy{
+  background-color: rgb(147, 208, 255);
+  width: 20%;
+  height: 100px;
+  float: left;
+  margin-left: 10%;
+  margin-top: 20px; 
+}
+
+.katpojazdu {
+  background-color: rgb(147, 208, 255);
+  width: 20%;
+  height: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  float: left;
+  margin-top: 20px;
+}
+
+.liczba_dni{
+  background-color: rgb(147, 208, 255);
+  width: 20%;
+  height: 100px;
+  float: right;
+  margin-right: 10%;
+  margin-top: 20px;
+}
+
+.wynik {
+  height: 50px;
+  width: 10%;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 140px;
+  background-color: rgb(147, 208, 255);
+}
+
+.select {
+  width: 50%;
+  font-size: 17px;
+  border-radius: 25px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 15px;
+  border-radius: 5px;  
+  background: white;
+  outline: none;
+
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #000000;
+  cursor: pointer; 
+}
+
+input{
+  border-color: white;
+  border-radius: 25px; 
+  width: 50%;
+  font-size: 17px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+button{
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black
+}
+
+.podsumowanie1{
+  background-color: rgb(147, 208, 255);
+  width: 20%;
+  height: 100px;
+  float: left;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+.podsumowanie2 {
+  background-color: rgb(147, 208, 255);
+  width: 20%;
+  height: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  float: left;
+  margin-top: 20px;
+}
+
+.podsumowanie3{
+  background-color: rgb(147, 208, 255);
+  width: 20%;
+  height: 100px;
+  float: right;
+  margin-right: 10%;
+  margin-top: 20px;
+}
+
+.podsumowanie4{
+  background-color: rgb(147, 208, 255);
+  width: 20%;
+  height: 100px;
+  float: left;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+
+.podsumowanie5{
+  background-color: rgb(147, 208, 255);
+  width: 20%;
+  height: 100px;
+  float: right;
+  margin-right: 25%;
+  margin-top: 20px;
+}
